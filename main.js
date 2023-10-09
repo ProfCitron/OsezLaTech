@@ -9,3 +9,6 @@ let questions = [
 let randomQuestion = questions[Math.floor(Math.random() * questions.length)];
 document.getElementById("question").innerText = randomQuestion;
 document.getElementById("questionForm").value = randomQuestion;
+
+// AOS INIT
+AOS.init();

@@ -17,6 +17,7 @@ if($_POST) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Osez La Tech - Découverte du Coding</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <nav>
@@ -29,7 +30,7 @@ if($_POST) {
       if ($answers) {
         foreach ($answers as $row) {
       ?>
-      <div class="tweet">
+      <div class="tweet" data-aos="fade-up">
         <div class="tweet-header">
             <?php
             // reformat date
@@ -60,6 +61,7 @@ if($_POST) {
       </div>
     </aside>
   </main>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

@@ -85,8 +85,8 @@ main {
   background-color: white;
 }
 
-.tweet:not(:last-child) {
-  border-bottom: none;
+.tweet:not(:first-child) {
+  border-top: none;
 }
 
 .tweet-header {

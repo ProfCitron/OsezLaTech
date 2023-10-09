@@ -110,4 +110,16 @@ main {
     order: -1;
     margin-bottom: 40px;
   }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav h1 {
+    display: none;
+  }
+
+  .tweet h3 + p {
+    font-size: 14px;
+  }
 }
